@@ -52,17 +52,17 @@
 
 #DO WHILE
 
-contador = 0 # Inicializamos o contador
-limite = 5 # Definimos o limite
-while contador < limite: # A condição de parada: Enquanto o contador for menor que 
-    print(f"Número {contador + 1} de {limite}:")
-    num = float(input("Digite um número: "))
+# contador = 0 # Inicializamos o contador
+# limite = 5 # Definimos o limite
+# while contador < limite: # A condição de parada: Enquanto o contador for menor que 
+#     print(f"Número {contador + 1} de {limite}:")
+#     num = float(input("Digite um número: "))
  
-dobro = num * 2
-triplo = num * 3
-quádruplo = num * 4
+# dobro = num * 2
+# triplo = num * 3
+# quádruplo = num * 4
  
-print(f" Resultado: Dobro={dobro}, Triplo={triplo}, Quádruplo={quádruplo}\n")
+# print(f" Resultado: Dobro={dobro}, Triplo={triplo}, Quádruplo={quádruplo}\n")
 
 
 
