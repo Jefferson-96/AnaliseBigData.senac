@@ -63,7 +63,15 @@
 # quádruplo = num * 4
  
 # print(f" Resultado: Dobro={dobro}, Triplo={triplo}, Quádruplo={quádruplo}\n")
+ 
 
+
+# nome = input ("informe seu nome")
+
+# if name=="jefferson":
+#     resposta="jefferson presente!"
+# elif nome== "Phellipe presente!":
+    # resposta= "Phellipe presente!"
 
 
 

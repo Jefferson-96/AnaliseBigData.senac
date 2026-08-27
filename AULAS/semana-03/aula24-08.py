@@ -50,21 +50,21 @@
 
 # print(participantes)
 
-#ESPECIFICAÇÕES IMPORTANTES
+# ESPECIFICAÇÕES IMPORTANTES
 # [] List  *significa uma lista*
 # () tuple *significa protegido*
 # {} set *caracteristica de não ter ordem ou trabalhar em dados que não tenha ordem e remove os itens duplicados*
 # {k:v} {key : value}
 
 
-#TUPLAS
+# TUPLAS
 # participantes = ("Isaque","Luana","Fernado","Bianca","Ana Paula") + ("Hugo")
 # print(resultado)
 
 # print(participantes,type(participantes))
 
 
-#SETS:
+# SETS:
 
 # numeros_pares = {
 # 202,
@@ -85,26 +85,26 @@
 # numeros_impares.remove(205)
 # print(numeros_pares)
 
-#
 
-#DICIONÁRIOS:
 
-produtos = {"maçã":5.99,"laranja":4.79}
-# print(produtos,(type(produtos)))
+# DICIONÁRIOS:
 
-print(produtos.items()) # me trás os produtos e os valores juntos
-print(produtos.keys()) #me trás somente os produtos
-print(produtos.values()) #me trás somente os valores
-print(produtos.get("laranja")) #especifico o produto e ele me tras somente o valor do produto *caso eu tenha esquecido o valor*
-produtos2 = produtos.copy() #faço uma cópia dos dados originais *a partir deste comando daqui* 
-print(produtos2)
-# produtos2.pop("maçã")
-# produtos.update()
-produtos["maçã"]=7.99
-print(produtos2)
+# produtos = {"maçã":5.99,"laranja":4.79}
+# # print(produtos,(type(produtos)))
 
-###
-achadinhos = {} 
-print(type(achadinhos))
-achadinhos["capinha celular"]=12.99
-print(achadinhos)
+# print(produtos.items()) # me trás os produtos e os valores juntos
+# print(produtos.keys()) #me trás somente os produtos
+# print(produtos.values()) #me trás somente os valores
+# print(produtos.get("laranja")) #especifico o produto e ele me tras somente o valor do produto *caso eu tenha esquecido o valor*
+# produtos2 = produtos.copy() #faço uma cópia dos dados originais *a partir deste comando daqui* 
+# print(produtos2)
+# # produtos2.pop("maçã")
+# # produtos.update()
+# produtos["maçã"]=7.99
+# print(produtos2)
+
+# ###
+# achadinhos = {} 
+# print(type(achadinhos))
+# achadinhos["capinha celular"]=12.99
+# print(achadinhos)
