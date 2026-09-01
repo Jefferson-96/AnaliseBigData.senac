@@ -1,0 +1,4 @@
+
+#COMANDO - pip install pandas
+
+

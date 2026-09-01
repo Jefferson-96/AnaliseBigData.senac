@@ -66,12 +66,12 @@
  
 
 
-# nome = input ("informe seu nome")
+# nome = input ("informe seu nome:")
 
 # if name=="jefferson":
 #     resposta="jefferson presente!"
 # elif nome== "Phellipe presente!":
-    # resposta= "Phellipe presente!"
+#     resposta= "Phellipe presente!"
 
 
 

@@ -1,4 +1,4 @@
-LÓGICAS CONDICIONAIS - 01#
+#LÓGICAS CONDICIONAIS - 01
 
 x = 100 
 y = 99.9
@@ -18,24 +18,24 @@ bebidinha = False
 posso_dirigir = cnh and not bebidinha
 print(posso_dirigir)
 
-LÓGICAS CONDICIONAIS - 02#
+# LÓGICAS CONDICIONAIS - 02#
 
-busaun = True
-trenzinho = True
+# busaun = True
+# trenzinho = True
 
-venho_pra_aula = busaum or trenzinho
-print(venho_pra_aula)
-print ("venho_pra_aula",venho_pra_aula)
+# venho_pra_aula = busaum or trenzinho
+# print(venho_pra_aula)
+# print ("venho_pra_aula",venho_pra_aula)
 
-#LÓGICAS CONDICIONAIS - 03#
+# #LÓGICAS CONDICIONAIS - 03#
 
-locomocao = "moto"
-choveu = True
+# locomocao = "moto"
+# choveu = True
 
-if choveu and locomocao=="moto":
-    resultado = "tô todo molhado :("
-else: 
-    resultado = "tô seco :)"
+# if choveu and locomocao=="moto":
+#     resultado = "tô todo molhado :("
+# else: 
+#     resultado = "tô seco :)"
 
 
-print(resultado)
+# print(resultado)
