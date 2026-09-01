@@ -58,6 +58,6 @@
 
 #DEMONSTRAÇÃO
 
-# meunome = "jefferson"
-# for i in meunome:
-#     print(i)
+meunome = "jefferson"
+for i in meunome:
+    print(i)
