@@ -3,6 +3,7 @@
 #Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 #deactivate
 #pip install -r requirements.txt
+#python -m pip install openpyxl
 
 import pandas as pd
 import numpy as np 

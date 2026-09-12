@@ -6,7 +6,7 @@ filmes = {
     'titulo': ["lagoa Azul","Agente Secreto","Gênio Indomável","A Freira","Top Gun", "Brinquedo Assassino"],
     'categoria': ["Romance","Ação","Drama","Terror","Comédia","Aventura"],
     'ano': ["1980","2025","1997","2022","1995","1986"],
-    'faturamento': [6.5,4,5,5,7]
+    'faturamento': [6,5,4,5,5,7]
 }
 
 indices = ['A','B','C','D','E','F']
