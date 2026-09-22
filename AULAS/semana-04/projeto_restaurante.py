@@ -54,47 +54,47 @@
 # ]
 
 
-# def consultar_status_pedido(fila):
+def consultar_status_pedido(fila):
 
-#     encontrado = False
+    encontrado = False
 
-#     while encontrado == False:
+    while encontrado == False:
 
-#         numero_pedido = input("\nDigite o número do seu pedido: ")
+        numero_pedido = input("\nDigite o número do seu pedido: ")
 
-#         for pedido in fila:
+        for pedido in fila:
 
-#             if pedido["pedido"] == numero_pedido:
+            if pedido["pedido"] == numero_pedido:
 
-#                 encontrado = True
+                encontrado = True
 
-#                 print("\n==============================")
-#                 print("       STATUS DO PEDIDO")
-#                 print("==============================")
+                print("\n==============================")
+                print("       STATUS DO PEDIDO")
+                print("==============================")
 
-#                 print("Número do pedido:", pedido["pedido"])
-#                 print("Nome do cliente:", pedido["cliente"])
-#                 print("Mesa:", pedido["mesa"])
-#                 print("Status:", pedido["status"])
+                print("Número do pedido:", pedido["pedido"])
+                print("Nome do cliente:", pedido["cliente"])
+                print("Mesa:", pedido["mesa"])
+                print("Status:", pedido["status"])
 
-#                 if pedido["status"] == "📥RECEBIDO":
-#                     print("Seu pedido foi recebido e está aguardando preparo!⏳")
+                if pedido["status"] == "📥RECEBIDO":
+                    print("Seu pedido foi recebido e está aguardando preparo!⏳")
 
-#                 elif pedido["status"] == "👩‍🍳PREPARANDO":
-#                     print("Seu pedido está sendo preparado!😎")
+                elif pedido["status"] == "👩‍🍳PREPARANDO":
+                    print("Seu pedido está sendo preparado!😎")
 
-#                 elif pedido["status"] == "🔔PRONTO":
-#                     print("Boas notícias😊Seu pedido está pronto e será levado até você!😉")
+                elif pedido["status"] == "🔔PRONTO":
+                    print("Boas notícias😊Seu pedido está pronto e será levado até você!😉")
 
-#                 elif pedido["status"] == "🍜ENTREGUE":
-#                     print("Seu pedido já foi entregue!✅")
+                elif pedido["status"] == "🍜ENTREGUE":
+                    print("Seu pedido já foi entregue!✅")
 
-#         if encontrado == False:
-#             print("\nNúmero do pedido não encontrado!😕")
-#             print("Por favor, tente novamente.")
+        if encontrado == False:
+            print("\nNúmero do pedido não encontrado!😕")
+            print("Por favor, tente novamente.")
 
 
-# consultar_status_pedido(fila_cozinha)
+consultar_status_pedido(fila_cozinha)
 
 
 #####################################################################
@@ -102,56 +102,56 @@
 #####################################################################
 
 
-fila_cozinha = [
-    {
-        "pedido": "0001",
-        "mesa": 1,
-        "cliente": "João",
-        "itens": ["Sushi", "Temaki de Salmão", "Missoshiru"],
-        "status": "PEDIDO RECEBIDO"
-    },
+# fila_cozinha = [
+#     {
+#         "pedido": "0001",
+#         "mesa": 1,
+#         "cliente": "João",
+#         "itens": ["Sushi", "Temaki de Salmão", "Missoshiru"],
+#         "status": "PEDIDO RECEBIDO"
+#     },
 
-    {
-        "pedido": "0002",
-        "mesa": 3,
-        "cliente": "Maria",
-        "itens": ["Yakisoba", "Guioza"],
-        "status": "PEDIDO SENDO PREPARADO"
-    },
+#     {
+#         "pedido": "0002",
+#         "mesa": 3,
+#         "cliente": "Maria",
+#         "itens": ["Yakisoba", "Guioza"],
+#         "status": "PEDIDO SENDO PREPARADO"
+#     },
 
-    {
-        "pedido": "0003",
-        "mesa": 5,
-        "cliente": "Carlos",
-        "itens": ["Lamen", "Hot Roll"],
-        "status": "PEDIDO PRONTO"
-    },
+#     {
+#         "pedido": "0003",
+#         "mesa": 5,
+#         "cliente": "Carlos",
+#         "itens": ["Lamen", "Hot Roll"],
+#         "status": "PEDIDO PRONTO"
+#     },
 
-    {
-        "pedido": "0004",
-        "mesa": 2,
-        "cliente": "Ana",
-        "itens": ["Sashimi de Salmão", "Temaki de Atum"],
-        "status": "PEDIDO ENTREGUE"
-    }
-]
-
-
-def listar_fila_cozinha(fila):
-
-    print("\n===== FILA DA COZINHA =====")
-
-    for pedido in fila:
-
-        print("\nPedido:", pedido["pedido"])
-        print("Mesa:", pedido["mesa"])
-        print("Cliente:", pedido["cliente"])
-        print("Itens:")
-
-        for item in pedido["itens"]:
-            print("-", item)
-
-        print("Status:", pedido["status"])
+#     {
+#         "pedido": "0004",
+#         "mesa": 2,
+#         "cliente": "Ana",
+#         "itens": ["Sashimi de Salmão", "Temaki de Atum"],
+#         "status": "PEDIDO ENTREGUE"
+#     }
+# ]
 
 
-listar_fila_cozinha(fila_cozinha)
+# def listar_fila_cozinha(fila):
+
+#     print("\n===== FILA DA COZINHA =====")
+
+#     for pedido in fila:
+
+#         print("\nPedido:", pedido["pedido"])
+#         print("Mesa:", pedido["mesa"])
+#         print("Cliente:", pedido["cliente"])
+#         print("Itens:")
+
+#         for item in pedido["itens"]:
+#             print("-", item)
+
+#         print("Status:", pedido["status"])
+
+
+# listar_fila_cozinha(fila_cozinha)

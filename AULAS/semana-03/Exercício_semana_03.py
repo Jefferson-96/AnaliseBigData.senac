@@ -156,9 +156,6 @@ def listar_fila_cozinha(fila):
 
     return pedidos_pendentes
 
-
-# TESTE DA FUNÇÃO
-
 listar_fila_cozinha(fila_cozinha)
 
 

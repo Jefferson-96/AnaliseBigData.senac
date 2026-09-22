@@ -55,7 +55,6 @@ df_ativos = pd.read_excel('base_invest.xlsx',sheet_name='Ativo')
 
 
 
-
 #Qual valor total em transações de cada participante?
 
 
