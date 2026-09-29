@@ -80,7 +80,7 @@ def obter_dados_do_banco(query):
         conexao = mysql.connector.connect(
             host="127.0.0.1",
             user="root",
-            password=os.getenv("MYSQL_PASSWORD"),
+            password=os.getenv("MYSQL_PASSWORD"),  # Certifique-se de definir a variável de ambiente MYSQL_PASSWORD
             database="meu_ecommerce"
         )
         cursor = conexao.cursor()
@@ -100,20 +100,23 @@ query_produtos = "SELECT * FROM vendas_produtos WHERE preco > 100"
 dados_filtrados = obter_dados_do_banco(query_produtos)
 
 if dados_filtrados:
-    for produto in dados_filtrados:
-        print(produto)
+    for vendas_produtos in dados_filtrados:
+        print(vendas_produtos)
 
 ######################
 
 query_produtos = "SELECT * FROM vendas_produtos"
-df_produtos = pd.DataFrame(obter_dados_do_banco(query_produtos), columns=['id_produto', 'nome', 'categoria', 'preco', 'estoque'])
+df_vendas_produtos = pd.DataFrame(obter_dados_do_banco(query_produtos), columns=['id_produto', 'nome', 'categoria', 'preco', 'estoque'])
+
+
+
 
 ####
 
 
 # Identificação de Outliers Superiores e Inferiores
-outliers_superiores = df_produtos[df_produtos['preco'] > limite_superior]
-outliers_inferiores = df_produtos[df_produtos['preco'] < abs(limite_inferior)]
+outliers_superiores = df_vendas_produtos[df_vendas_produtos['preco'] > limite_superior]
+outliers_inferiores = df_vendas_produtos[df_vendas_produtos['preco'] < abs(limite_inferior)]
 
 # Exibir Outliers Superiores Ordenados (Decrescente)
 print(f"\n--- Outliers Superiores ({len(outliers_superiores)} produtos) ---")
