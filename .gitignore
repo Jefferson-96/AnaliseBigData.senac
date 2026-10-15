@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Ignorar arquivos CSV em todas as pastas
+**/*.csv
+**/*.CSV
+
+# Ignorar arquivos Parquet grandes
+**/*.parquet
+**/*.PARQUET
+
+# Ignorar ambientes virtuais Python
+venv/
+.venv/
+
+# Ignorar cache do Python
+__pycache__/
+*.pyc
